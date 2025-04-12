@@ -3,7 +3,7 @@
 
 
 
-# find_fake_fast
+# find-fake-fast
 
 ## Description
 
@@ -13,7 +13,7 @@ Find candidate fake fast or tcache chunks overlapping the specified address.
 
 
 ```bash
-usage: find_fake_fast [-h] [--align] [--glibc-fastbin-bug]
+usage: find-fake-fast [-h] [--align] [--glibc-fastbin-bug]
                       [--partial-overwrite]
                       target_address [max_candidate_size]
 

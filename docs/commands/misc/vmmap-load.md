@@ -3,19 +3,25 @@
 
 
 
-# patch_list
+# vmmap-load
 
 ## Description
 
 
-List all patches.
+Load virtual memory map pages from ELF file.
 ## Usage:
 
 
 ```bash
-usage: patch_list [-h]
+usage: vmmap-load [-h] [filename]
 
 ```
+## Positional Arguments
+
+|Positional Argument|Help|
+| :--- | :--- |
+|`filename`|ELF filename, by default uses current loaded filename.|
+
 ## Optional Arguments
 
 |Short|Long|Default|Help|

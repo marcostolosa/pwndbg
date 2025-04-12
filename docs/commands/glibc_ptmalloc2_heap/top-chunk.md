@@ -3,19 +3,27 @@
 
 
 
-# save_ida
+# top-chunk
 
 ## Description
 
 
-Save the ida database.
+Print relevant information about an arena's top chunk.
+
+Default to current thread's arena.
 ## Usage:
 
 
 ```bash
-usage: save_ida [-h]
+usage: top-chunk [-h] [addr]
 
 ```
+## Positional Arguments
+
+|Positional Argument|Help|
+| :--- | :--- |
+|`addr`|Address of the arena.|
+
 ## Optional Arguments
 
 |Short|Long|Default|Help|

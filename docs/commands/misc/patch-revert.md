@@ -3,24 +3,24 @@
 
 
 
-# try_free
+# patch-revert
 
 ## Description
 
 
-Check what would happen if free was called with given address.
+Revert patch at given address.
 ## Usage:
 
 
 ```bash
-usage: try_free [-h] addr
+usage: patch-revert [-h] address
 
 ```
 ## Positional Arguments
 
 |Positional Argument|Help|
 | :--- | :--- |
-|`addr`|Address passed to free|
+|`address`|Address to revert patch on|
 
 ## Optional Arguments
 

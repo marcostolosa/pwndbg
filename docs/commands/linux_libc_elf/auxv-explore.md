@@ -3,25 +3,19 @@
 
 
 
-# knft_dump
+# auxv-explore
 
 ## Description
 
 
-Dump all nftables: tables, chains, rules, expressions
+Explore and print information from the Auxiliary ELF Vector.
 ## Usage:
 
 
 ```bash
-usage: knft_dump [-h] [nsid]
+usage: auxv-explore [-h]
 
 ```
-## Positional Arguments
-
-|Positional Argument|Help|
-| :--- | :--- |
-|`nsid`|Network Namespace ID|
-
 ## Optional Arguments
 
 |Short|Long|Default|Help|

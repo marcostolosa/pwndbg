@@ -3,29 +3,19 @@
 
 
 
-# knft_list_exprs
+# knft-list-tables
 
 ## Description
 
 
-Dump only expressions from specific rule
+Dump netfliter tables from a specific network namespace
 ## Usage:
 
 
 ```bash
-usage: knft_list_exprs [-h] [--nsid NSID]
-                       [table_family] [table_name] [chain_name] [rule_id]
+usage: knft-list-tables [-h] [--nsid NSID]
 
 ```
-## Positional Arguments
-
-|Positional Argument|Help|
-| :--- | :--- |
-|`table_family`|Table family, eg: inet, ip, ip6, netdev, bridge, arp|
-|`table_name`|Table name|
-|`chain_name`|Chain name|
-|`rule_id`|Rule Handle ID|
-
 ## Optional Arguments
 
 |Short|Long|Default|Help|

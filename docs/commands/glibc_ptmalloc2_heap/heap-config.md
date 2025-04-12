@@ -3,26 +3,24 @@
 
 
 
-# top_chunk
+# heap-config
 
 ## Description
 
 
-Print relevant information about an arena's top chunk.
-
-Default to current thread's arena.
+Shows heap related configuration.
 ## Usage:
 
 
 ```bash
-usage: top_chunk [-h] [addr]
+usage: heap-config [-h] [filter_pattern]
 
 ```
 ## Positional Arguments
 
 |Positional Argument|Help|
 | :--- | :--- |
-|`addr`|Address of the arena.|
+|`filter_pattern`|Filter to apply to config parameters names/descriptions|
 
 ## Optional Arguments
 

@@ -3,19 +3,25 @@
 
 
 
-# reinit_pwndbg
+# vmmap-explore
 
 ## Description
 
 
-Makes pwndbg reinitialize all state.
+Explore a page, trying to guess permissions.
 ## Usage:
 
 
 ```bash
-usage: reinit_pwndbg [-h]
+usage: vmmap-explore [-h] address
 
 ```
+## Positional Arguments
+
+|Positional Argument|Help|
+| :--- | :--- |
+|`address`|Address of the page to explore|
+
 ## Optional Arguments
 
 |Short|Long|Default|Help|

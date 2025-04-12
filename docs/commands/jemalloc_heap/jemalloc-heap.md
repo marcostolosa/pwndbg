@@ -3,25 +3,19 @@
 
 
 
-# log_level
+# jemalloc-heap
 
 ## Description
 
 
-Set the log level.
+Prints all extents information
 ## Usage:
 
 
 ```bash
-usage: log_level [-h] [{debug,info,warning,error,critical}]
+usage: jemalloc-heap [-h]
 
 ```
-## Positional Arguments
-
-|Positional Argument|Help|
-| :--- | :--- |
-|`level`|The log level to set. (default: %(default)s)|
-
 ## Optional Arguments
 
 |Short|Long|Default|Help|

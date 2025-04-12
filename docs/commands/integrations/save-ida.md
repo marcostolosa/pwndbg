@@ -3,25 +3,19 @@
 
 
 
-# jemalloc_find_extent
+# save-ida
 
 ## Description
 
 
-Returns extent information for pointer address allocated by jemalloc
+Save the ida database.
 ## Usage:
 
 
 ```bash
-usage: jemalloc_find_extent [-h] addr
+usage: save-ida [-h]
 
 ```
-## Positional Arguments
-
-|Positional Argument|Help|
-| :--- | :--- |
-|`addr`|Address of the allocated memory location|
-
 ## Optional Arguments
 
 |Short|Long|Default|Help|

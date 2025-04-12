@@ -3,27 +3,24 @@
 
 
 
-# vmmap_add
+# knft-dump
 
 ## Description
 
 
-Add virtual memory map page.
+Dump all nftables: tables, chains, rules, expressions
 ## Usage:
 
 
 ```bash
-usage: vmmap_add [-h] start size [flags] [offset]
+usage: knft-dump [-h] [nsid]
 
 ```
 ## Positional Arguments
 
 |Positional Argument|Help|
 | :--- | :--- |
-|`start`|Starting virtual address|
-|`size`|Size of the address space, in bytes|
-|`flags`|Flags set by the ELF file (r - read, w - write, x - executable) (default: %(default)s)|
-|`offset`|Offset into the original ELF file that the data is loaded from (default: %(default)s)|
+|`nsid`|Network Namespace ID|
 
 ## Optional Arguments
 

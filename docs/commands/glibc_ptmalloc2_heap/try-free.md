@@ -3,19 +3,25 @@
 
 
 
-# jemalloc_heap
+# try-free
 
 ## Description
 
 
-Prints all extents information
+Check what would happen if free was called with given address.
 ## Usage:
 
 
 ```bash
-usage: jemalloc_heap [-h]
+usage: try-free [-h] addr
 
 ```
+## Positional Arguments
+
+|Positional Argument|Help|
+| :--- | :--- |
+|`addr`|Address passed to free|
+
 ## Optional Arguments
 
 |Short|Long|Default|Help|
